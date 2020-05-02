@@ -45,11 +45,11 @@ yargs.command({
     builder: {
         title: {
             describe: "Note Title",
+            demandOption:false,
             type: "string"
         }
     },
     handler: function(argv){
-      
         listNotes() 
     }
 })
@@ -60,6 +60,7 @@ yargs.command({
     builder: {
         title: {
             describe: "Note Title",
+            demandOption:false,
             type: "string"
         }
     },
