@@ -27,7 +27,7 @@ yargs.command({
 })
 yargs.command({
     command: "remove",
-    describe: "Remove a new note",
+    describe: "Remove a note",
     builder:{
         title: {
             describe:"Note Title",
