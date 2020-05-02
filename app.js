@@ -74,13 +74,3 @@ yargs.command({
 })
 yargs.parse()
 
-//const command = process.argv[2]
-//console.log(yargs.argv)
-//switch(command){
-  //  case 'add':
-    //    console.log('Adding note')
-      //  break
-   // case 'remove':
-     //   console.log('Removing note')
-       // break
-//}
